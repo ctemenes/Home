@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer at Byron Yoga Centre</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Basic styling for form focus states */
+        input:focus, textarea:focus, select:focus {
+            outline: 2px solid #3b82f6; /* blue-500 */
+            outline-offset: 2px;
+        }
+        /* Custom styles to mimic Byron Yoga Centre's feel */
+        .byc-primary-bg { background-color: #008080; } /* Teal-like color */
+        .byc-primary-text { color: #008080; }
+        .byc-secondary-bg { background-color: #f0fdfa; } /* Very light teal/mint */
+        .byc-accent-color { color: #f59e0b; } /* Amber/gold accent */
+        .btn-primary {
+            background-color: #008080; /* Teal */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.375rem; /* rounded-md */
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #006666; /* Darker teal */
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold byc-primary-text">Byron Yoga Centre</div>
+            <div>
+                <a href="#" class="text-gray-600 hover:byc-primary-text px-3 py-2">Home</a>
+                <a href="#" class="text-gray-600 hover:byc-primary-text px-3 py-2">Yoga Retreats</a>
+                <a href="#" class="text-gray-600 hover:byc-primary-text px-3 py-2">Teacher Training</a>
+                <a href="#" class="font-semibold byc-primary-text px-3 py-2">Volunteer</a>
+                <a href="#" class="text-gray-600 hover:byc-primary-text px-3 py-2">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="byc-secondary-bg py-16 md:py-24 text-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold byc-primary-text mb-4">Volunteer at Byron Yoga Centre</h1>
+            <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+                Immerse yourself in a vibrant yoga community, contribute your skills, and deepen your practice in the heart of Byron Bay.
+            </p>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-4 py-12 md:py-16">
+
+        <section class="mb-12 md:mb-16">
+            <h2 class="text-3xl font-semibold byc-primary-text mb-6 text-center">Experience Community Living</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <img src="https://placehold.co/600x400/f0fdfa/008080?text=Community+Vibes" alt="Volunteers at Byron Yoga Centre" class="rounded-lg shadow-md w-full h-auto object-cover">
+                     </div>
+                <div class="text-gray-700 space-y-4">
+                    <p>Volunteering at Byron Yoga Centre offers a unique opportunity to live, learn, and grow within a supportive and inspiring environment. Our volunteer program, often referred to as 'seva' or selfless service, is an integral part of our community ethos.</p>
+                    <p>You'll contribute your energy and skills to the daily running of our centre, supporting our retreats and teacher training programs. In exchange, you become part of our family, sharing in the nourishing lifestyle and transformative power of yoga.</p>
+                    <p>This is more than just work; it's a chance to connect deeply with yourself, others, and the principles of yoga in action.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 md:mb-16 bg-gray-50 p-8 rounded-lg shadow">
+            <h2 class="text-3xl font-semibold byc-primary-text mb-6 text-center">What We Offer Our Volunteers</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-4">
+                     <svg class="w-12 h-12 mx-auto mb-3 byc-primary-text" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Comfortable Accommodation</h3>
+                    <p class="text-gray-600">Shared accommodation is provided within our tranquil centre grounds.</p>
+                </div>
+                <div class="p-4">
+                    <svg class="w-12 h-12 mx-auto mb-3 byc-primary-text" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M12 18.5A2.5 2.5 0 019.5 16V8.875a2.5 2.5 0 115 0V16a2.5 2.5 0 01-2.5 2.5z M9 12.75a3 3 0 006 0"></path></svg> <h3 class="text-xl font-semibold text-gray-800 mb-2">Nourishing Vegetarian Meals</h3>
+                    <p class="text-gray-600">Enjoy three delicious, healthy vegetarian meals daily, prepared with love.</p>
+                </div>
+                <div class="p-4">
+                    <svg class="w-12 h-12 mx-auto mb-3 byc-primary-text" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" /> </svg> <h3 class="text-xl font-semibold text-gray-800 mb-2">Access to Yoga Classes</h3>
+                    <p class="text-gray-600">Participate in daily yoga and meditation sessions (subject to availability and your work schedule).</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 md:mb-16">
+            <h2 class="text-3xl font-semibold byc-primary-text mb-6 text-center">Our Expectations</h2>
+            <div class="max-w-3xl mx-auto text-gray-700 space-y-4">
+                <p>We welcome dedicated individuals who are genuinely interested in contributing to our community and upholding the values of Byron Yoga Centre. We typically ask for:</p>
+                <ul class="list-disc list-inside space-y-2 pl-4">
+                    <li><strong>Commitment:</strong> A minimum stay duration (e.g., 4-6 weeks - *adjust as needed*) and dedication to fulfilling your agreed-upon tasks (approx. 25-30 hours per week - *adjust as needed*).</li>
+                    <li><strong>Positive Attitude:</strong> Enthusiasm, willingness to learn, flexibility, and a collaborative spirit.</li>
+                    <li><strong>Responsibility:</strong> Punctuality, reliability, and taking ownership of your tasks.</li>
+                    <li><strong>Respect:</strong> Respect for the space, fellow volunteers, staff, guests, and the principles of yoga. Adherence to centre guidelines (e.g., vegetarian diet on-site, no drugs/alcohol).</li>
+                    <li><strong>Relevant Skills (Beneficial but not always essential):</strong> Experience in areas like housekeeping, kitchen assistance, gardening, maintenance, or administration can be helpful.</li>
+                </ul>
+                 </div>
+        </section>
+
+        <section id="apply" class="pt-12 border-t border-gray-200">
+            <h2 class="text-3xl font-semibold byc-primary-text mb-8 text-center">Apply to Volunteer</h2>
+            <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">Interested in joining our volunteer family? Please fill out the form below, and we'll get back to you as soon as possible.</p>
+
+            <form action="#" method="POST" class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md border border-gray-100 space-y-6">
+                 <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                    <input type="text" name="name" id="name" required class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                </div>
+
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                    <input type="email" name="email" id="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                </div>
+
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                </div>
+
+                 <div>
+                    <label for="availability" class="block text-sm font-medium text-gray-700 mb-1">Preferred Start Date & Duration</label>
+                    <input type="text" name="availability" id="availability" placeholder="e.g., Early June for 6 weeks" required class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                </div>
+
+                <div>
+                    <label for="skills" class="block text-sm font-medium text-gray-700 mb-1">Relevant Skills or Experience</label>
+                    <textarea name="skills" id="skills" rows="4" placeholder="Tell us about any skills (kitchen, garden, maintenance, admin, etc.) or previous volunteer experience." class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+                </div>
+
+                <div>
+                    <label for="motivation" class="block text-sm font-medium text-gray-700 mb-1">Why do you want to volunteer at Byron Yoga Centre?</label>
+                    <textarea name="motivation" id="motivation" rows="5" required placeholder="Share your motivation for applying and what you hope to gain from the experience." class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn-primary">
+                        Submit Application
+                    </button>
+                </div>
+                 <p class="text-xs text-gray-500 text-center mt-4">We respect your privacy. Your information will only be used for processing your volunteer application.</p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 mt-16 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; <span id="current-year"></span> Byron Yoga Centre. All Rights Reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+                <a href="#" class="hover:text-white">Contact Us</a>
+            </div>
+             </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
